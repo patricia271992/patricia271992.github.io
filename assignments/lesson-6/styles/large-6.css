@@ -1,0 +1,71 @@
+@media screen and (min-width: 501px) {
+	.menu
+	{display: none;}
+	
+	.hide {
+		display: block;
+	}
+	
+
+.forecast 
+	{display: block;}}
+	#content {
+		background-color: #ffffff;
+			max-width:0 auto;;
+		margin: 0 auto;}
+	
+	header, footer
+	 {	margin: 10px auto;
+		background-color: paleturquoise;
+		border: 1px solid #8CBEBE;
+		box-shadow: 0 0 30px #465F5F;
+			text-align: center;
+			text-decoration-color: rgb(39, 39, 41) ;
+	}
+	nav{	padding: 1.5em;
+		margin-top: 55px;
+		
+			 line-height: 1.5em;
+			 padding: 0.5em;
+		 text-decoration: none;	}
+	
+		 nav a { 
+			color: black;
+			 padding: em 1em;
+			text-decoration: none;
+		 }       
+		 nav a:hover { 
+				background-color: #8CBEBE;
+				border-radius: 5px;
+		 }	
+	nav li {
+					border-radius: 1.5rem ;
+					font-family: 'Fugaz One', serif;
+					font-size: 1.75em;
+					padding-left: 50px; 
+					display: inline-block;
+					list-style-type: none;}
+	nav ul {
+		margin: 0;   }
+		
+		h1,h2, h3, h4, h5, h6 {
+			font-family: 'Fugaz One' ;
+			font-style: italic;
+			color: rgb(0, 0, 0); 
+			font-size: 1.1em;
+			line-height: 1.1em;
+			text-align: center;
+			padding: 10px;
+		}
+		.leftcol, .rightcol {
+			max-width: 48%;
+			flex: 1 0 15em;
+			display:inline-block; 
+				flex-flow: row-wrap;
+				align-items:center;
+				justify-content:center;}  }	
+
+				.icon{
+					width: 65px;
+					height: 65px;
+			}
