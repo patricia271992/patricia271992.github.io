@@ -1,0 +1,36 @@
+body {font-size: 16px;
+    line-height: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+     color: black; }
+h1 {font-size: 2rem ;
+    color:white;
+    margin:12px;
+    padding:10px;}
+h2 {font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+li {
+    border-radius: 1.5rem ;
+    font-size: 1.25em;
+    padding-left: 50px; 
+    display: flex;
+    list-style-type: none;}
+
+header, main, footer {margin: 1.25rem auto;
+    padding: 1rem;
+     max-width:1200px;
+    }
+img {width: 20rem;
+padding: 7em;}
+header, footer, footer a {
+    text-align: center;
+    background-color:CORAL;
+    color: whitesmoke;
+}
+header img {widows: 20px; 
+    height: auto;
+    float: right;
+}
+footer {font-size: 1em;}
+li {text-align: center;}
