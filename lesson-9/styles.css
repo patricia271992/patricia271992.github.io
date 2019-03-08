@@ -1,0 +1,74 @@
+/* || general styles */
+
+html {
+    background-color: rgb(5, 252, 239);
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-family: 'Wallpoet', cursive;
+    letter-spacing: 1em;
+}
+/* header styles */
+
+h1 {
+    border: 5px solid darkorange;
+    background-color: red;
+    color: whitesmoke;
+    font-size: 4rem;
+    text-align: center;
+    border-radius: 1em;
+}
+
+header p {
+    font-family: 'Wallpoet', cursive;
+    color: red;
+    text-shadow: 2px 2px green;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* section styles */
+
+section article {
+    background-color: yellow;
+    display: inline-grid;
+    padding: 5px;
+    margin: 25px;
+    border: 10px solid darkorange;
+    border-radius: 2em;
+    width: 33%;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 4px 4px green;
+
+}
+
+section p {
+    color: black;
+    margin: 5px 0;
+}
+
+section ul {
+    color: darkgreen;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #1D2644;
+    font-size: 2.5rem;
+    letter-spacing: -5px;
+    margin-bottom: 10px;
+}
