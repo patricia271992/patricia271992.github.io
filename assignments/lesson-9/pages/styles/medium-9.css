@@ -1,0 +1,35 @@
+@media screen and (min-width: 501px) and (max-width: 900) 
+			{
+				.menu
+				{display: block;}
+		
+				.hide {
+					display: block;
+				}
+				#hamburguer{ display: none;
+				}
+				
+		}
+		#content {
+			background-color: white;
+				max-width:0 auto;;
+			margin: 0 auto;}
+		
+			p , h1, h2,h3 {	justify-content: center;}
+
+		header, footer{
+			display: flex;
+						}
+
+			#image-container{
+				display: grid;
+				grid-template-columns: 1fr ;
+				justify-content: center;
+				}
+			#forecast table, th {
+					border: 1px solid black;
+					border-collapse: collapse;
+					text-align: center;
+					box-shadow: #8CBEBE;
+					}			
+	
