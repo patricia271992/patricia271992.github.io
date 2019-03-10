@@ -1,0 +1,65 @@
+@media screen and (min-width: 501px) and (max-width: 900) 
+			{
+				.menu
+				{display: flex;}
+			
+				.hide {
+					display: block;
+				}
+				#hamburguer { display: none;
+				}
+				
+								#image-container{
+									display: grid;
+									grid-template-columns: 1fr 1fr ;
+									justify-content: center;
+									}
+									#forecast table, th {
+										border: 1px solid black;
+										border-collapse: collapse;
+										text-align: center;
+										box-shadow: #8CBEBE;
+										}			
+						
+		}
+		#content {
+			background-color: white;
+				max-width:0 auto;;
+			margin: 0 auto;}
+			#section{
+				box-shadow: 0 0 30px #465F5F;
+				display: flex;
+				flex-flow: row;
+				padding: 10px;
+				border: 5px;
+				}
+			#section article{
+				border: solid #465F5F;
+				box-shadow: 0 0 30px #465F5F;
+					display: flex;
+					flex-flow: column;
+					align-content: space-around;
+		        margin: 5px;
+			   width: 250px;
+			   min-width: 160px ;
+								}
+		
+			p , h1, h2,h3 {	justify-content: center;}
+
+		header, footer{
+			display: flex;
+			flex-flow: column;
+						}
+						
+										
+												
+											#section img{
+												width: 150;
+												min-width: 95px;
+												 align-items: center;
+												 margin: 5px;
+												 padding: 5px;
+															}
+
+			
+			
