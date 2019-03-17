@@ -1,0 +1,11 @@
+div {
+    margin: 5px;
+}
+label{
+display: inline-block;
+min-width: 100px;
+align-content: center;
+align-items: center;
+}
+input .hover{
+    background-color: white;}
