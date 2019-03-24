@@ -1,0 +1,92 @@
+@media screen and (min-width: 501px) and (max-width: 900px) 
+			{
+				.menu {
+					display: block;
+				}
+		
+				.hide {
+					display: block;
+				}
+				
+				#hamburger { 
+					display: none;
+				}
+		
+	
+		#image-container{
+			border-radius: 5px;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			margin: auto;
+			align-items: stretch;			
+					}
+		#body{
+			align-content: center;
+			align-items: center;
+				}
+	
+
+			#forecast table, th {
+					border: 1px solid black;
+					border-collapse: collapse;
+					text-align: center;
+					box-shadow: #8CBEBE;
+					align-self: center;
+		align-content: center;
+		align-items: center;
+					}			
+			
+					table{
+						align-self: center;
+						align-content: center;
+						align-items: center;
+						max-width: 25rem;
+					}
+					table, th, tr, td {
+						border: 1px solid black;
+						border-collapse: collapse;
+						text-align: center;
+						box-shadow: 6, 6, 6 paleturquoise;
+						}
+						
+						
+						th{
+							background-color:paleturquoise;
+							color: black;
+						}
+					
+		tr :nth-child(odd) {
+		background-color: whitesmoke;
+		}
+
+		#section{
+		
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			
+			}
+						#section article{
+							display: flex;
+							flex-flow: column;
+							border: solid #465F5F;
+						   box-shadow: 0 0 30px #465F5F;
+					margin: 10px;
+					width: 300px;
+					min-width: 250px;
+					text-align: center;
+					align-items: center;
+					align-content: center;
+					line-height: 0.75em;
+					
+						}
+						#section h1 {
+							color: orange;
+						}
+					#section img{
+						width: 200px;
+						min-width: 95px;
+						align-items: center;
+						margin: 5px;
+						padding: 5px;
+					}		
+	}

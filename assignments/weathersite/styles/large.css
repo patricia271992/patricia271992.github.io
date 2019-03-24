@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Encode+Sans');
+
+@media screen and (min-width: 901px) {
+	.menu
+	{display: block;
+	}
+	
+	.hide {
+		display: block;
+	}
+	
+#hamburger { display: none;}
+
+	.forecast 
+	{display: block;
+	}
+	
+	#image-container{
+		border-radius: 5px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin: auto;
+		justify-content: center;
+		align-items: stretch;			
+				}
+			
+				#logo { 
+			width: 150px;
+					  }
+	
+					
+
+	nav{	padding: 1.5em;
+		margin-top: 25px;
+		 line-height: 1.5em;
+			 padding: 0.5em;
+		 text-decoration: none;	}
+	
+		 nav a { 
+			color: black;
+			 padding: em 1em;
+			text-decoration: none;
+		 }       
+		 nav a:hover { 
+				color: paleturquoise;
+				border-radius: 5px;
+		 }	
+	nav li {
+					border-radius: 1.5rem ;
+					font-family: 'Fugaz One', serif;
+					font-size: 1.75em;
+					padding-left: 50px; 
+					display: inline-block;
+					list-style-type: none;}
+
+		.container {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-flow: column;
+			text-align: center;
+			align-content: center;
+			align-items: center;
+			  }
+		
+		.figure:hover {
+			background-color: paleturquoise;
+			border-radius: 1rem;
+		}
+	
+
+		.icon{
+					width: 55px;
+					height: 55px;}
+#image {
+	max-width: 1100px;
+}
+#section{
+
+	display: flex;
+	flex-flow: row;
+
+	}
+	#section article{
+		max-width: 300px;
+		align-items: center;
+		align-content: center;
+		display: flex;
+		flex-flow: column;
+		border: solid #465F5F;
+		box-shadow: 0 0 30px #465F5F;
+		margin: 10px;
+		min-width: 125px;
+		line-height: 0.75em;
+					}
+									
+				#section h1 {
+					font-size: 1.7rem;
+					color: orange;
+				}
+			#section img{
+				width: 200px;
+				min-width: 95px;
+				align-items: center;
+				margin: 5px;
+				padding: 5px;
+			}
+			#body{
+				text-align: center;
+				align-items: center;
+				align-content: center;
+			}
+
+			#form1 {
+			align-items: center;
+	text-align: left;
+			margin: 5px;}
+
+			#form label {
+			display: inline-block;
+			min-width: 100px;
+			align-content: center;
+			align-items: center;
+			align-self: center;
+			}
+			#form input .hover{
+					background-color: white;}
+			#form input .value {
+            display: show;
+
+			}
+		}

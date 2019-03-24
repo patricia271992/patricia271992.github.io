@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+        <head>
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <meta name="description" content="Weather site">
+      <title>Fish Haven</title>
+      <Link rel="stylesheet" href="./styles/normalize.css">  
+          <link rel="stylesheet" href="./styles/small.css">
+          <link rel="stylesheet" href="./styles/medium.css">
+          <link rel="stylesheet" href="./styles/large.css">
+          
+<link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="STYLESHEET">
+<link href="https://fonts.googleapis.com/css?family=Encode+Sans" rel="STYLESHEET">        
+ <style>  
+    
+           </style>
+           
+    </head>
+   <body id="content">  
+          
+<header>
+	
+  <img id="logo" src="https://cdn1.iconfinder.com/data/icons/Futurosoft%20Icons%200.5.2/128x128/apps/keyboard_layout.png" alt="The world logo">
+<div>
+ <h2>Cloudy or Clear</h2>
+ <h2>Weather Site</h2>
+     <h2 class="motto">With the accuracy you need!</h2>
+     </div> 
+</header>
+       <nav>
+
+<button id="hamburger" onclick="toggleMenu()">&equiv;</button>  
+<ul id="menu" class="hide" >
+    <li><a href="index.html">Home</a></li>
+    <li><a href="preston.html" >Preston</a></li>
+    <li><a href="sodaSprings.html">Soda Springs</a></li>
+    <li><a href="fishHaven.html" class="current">Fish Haven</a></li>
+    <li><a href="stormcenter.html">Storm Center</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+     </ul>
+</nav>
+
+<div id="body">
+<main class="container">
+
+    
+<figure>
+          <img id="image" src="images/fish.png" alt=" fishHaven">
+     <figcaption>Photo of Fish Haven,Id </figcaption>
+</figure>
+
+</main>
+<table>
+          <thead>
+                    <td colspan="2"><h2>Preston, Idaho  Weather Sumary</h2>
+                         <img id="currentIcon" src="" alt=""> </td>
+                    </thead> 
+                <tbody> 
+                         <tr>   <th>Currently:</th>
+                              <th id="weather1"></th>
+                          </tr>
+                    <tr>   <th>Temperature:</th>
+                         <th id="weather2"></th>
+                     </tr>
+                     <tr>   <th>Humidity:</th>
+                         <th id="weather3"></th>
+                     </tr>
+                     <tr>   <th>Wind Speed:</th>
+                         <th id="weather4"></th>
+                     </tr>
+                     
+                 </tbody>   
+     
+    
+</table>
+
+
+
+
+
+<br>
+
+<article class="forecast">
+
+<table id="forecast">
+     <thead><td colspan="5"><h2>5-Days Forecast</h2></td> </thead>
+     <tr>
+          <th id="day1">Friday</th>
+          <th id="day2">Saturday</th>
+          <th id="day3">Sunday</th>
+          <th id="day4">Monday</th>
+          <th id="day5">Tuesday</th>          
+     </tr>
+     <tr>
+          <th id="temp1"></th>
+          <th id="temp2"></th>
+          <th id="temp3"></th>
+          <th id="temp4"></th>
+          <th id="temp5"></th>         
+     </tr>
+</table>
+</article> 
+
+
+     
+ <div class="contact">
+  <p>To find out more, contact us.<br>
+     email: cloudyorclear@gmail.com
+</p>
+
+<span id="map"></span>
+</div>
+</div>
+     <footer>
+     <div id="currentDate"></div>
+     
+
+         <p class="smaller"> &copy; 2019 |  Cloudy2Clear   | Terms of use </p>
+         <script src="script/weatherfish.js"></script>
+         <script src="script/currentDate.js"></script>
+         <script src="script/1.js"></script>
+         
+             
+</footer>
+</body>
+</html>
