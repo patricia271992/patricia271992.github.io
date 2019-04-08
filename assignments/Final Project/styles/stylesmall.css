@@ -1,0 +1,219 @@
+header {
+  background-color: gold; /* For browsers that do not support gradients */
+  background-image: linear-gradient( gold, sienna, gold);
+		border: 1px solid gold;
+		box-shadow: 0 0 30px sienna;
+	outline-color: silver;
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	align-content: center;
+		margin: 0;
+	overflow: hidden;
+	padding: 0;
+	;
+text-shadow:3px 3px 5px gray;
+text-decoration: none;
+}
+footer {
+	background-color: gold;
+	box-shadow: 0 0 30px sienna;
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	align-content: center;
+}
+#hamburguer {display: block;
+}
+
+nav {	padding: 1.5em;
+	margin-top: 10px;
+		 line-height: 1.5em;
+		 background-image: linear-gradient(black, gray);
+		  background-color: gray;
+		 		   padding: 0.5em;
+	 text-decoration: none;
+	 list-style-type: none;
+	 display: flex;
+	flex-flow: row;	
+	align-content: center;
+	align-items: center;
+}
+
+	nav a:hover { 
+		background-color: sienna;
+		padding: 0.5em;
+			color: white;
+			border-radius: 5px;
+	 }
+	 nav{	padding: 1.5em;
+		margin-top: 30px;
+					 line-height: 1.5em;
+			 padding: 0.5em;
+		 text-decoration: none;
+		align-content: center;
+		align-items: center;
+		}
+	
+		 nav a { 
+			color: white;
+			 padding: em 1em;
+			text-decoration: none;
+		 }       
+		
+		#logo {
+			width: 100px;
+			border-radius: 2px solid white;
+			padding: 10px;
+		}	
+		#bar{
+						align-content: space-between;
+		}
+		#banner{
+			min-width: 200px;
+					}
+					.overlay {
+						background-color: gray;
+						height: 75%;
+						width: 0;
+						position: fixed;
+						z-index: 1;
+						top: 0;
+						left: 35;
+						overflow-x: hidden;
+						transition: 0.5s;
+					}
+					.overlay-content {
+						position: relative;
+						top: 25%;
+						width: 25%;
+						text-align: center;
+						margin-top: 15px;
+											}
+					
+					.overlay a {
+					
+						display: flex;
+						flex-flow: column;
+						transition: 0.6s;
+					}
+					
+									
+					.overlay .closebtn {
+						position: absolute;
+						top: 10px;
+						right: 0;
+						}
+						.dot {
+							cursor: pointer;
+							height: 15px;
+							width: 15px;
+							margin: 0 2px;
+							background-color: #bbb;
+							border-radius: 50%;
+							display: inline-block;
+							transition: background-color 0.6s ease;
+						}
+						
+						.active, .dot:hover {
+							background-color: #717171;
+						}
+						
+						/* Fading animation */
+						.fade {
+							-webkit-animation-name: fade;
+							-webkit-animation-duration: 1.5s;
+							animation-name: fade;
+							animation-duration: 1.5s;
+						}
+						
+						@-webkit-keyframes fade {
+							from {opacity: .4} 
+							to {opacity: 1}
+						}
+						
+						@keyframes fade {
+							from {opacity: .4} 
+							to {opacity: 1}
+						}
+						
+						/* On smaller screens, decrease text size */
+						@media only screen and (max-width: 300px) {
+							.prev, .next,.text {font-size: 11px}
+						}
+
+button{
+	font-family: 'Roboto Slab', serif;
+	font-style: bold;
+	background-image: linear-gradient(sienna, gold);
+	width: 100px;
+	height: 100px;
+	border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+	}
+	#content{
+		display: flex;
+	flex-flow: column;
+	max-width: 1200px;
+	align-items: center;
+	}
+	
+ li {
+	font-family: 'Titillium Web', sans-serif;
+	font-style: italic;
+		border-radius: 1.7rem ;
+		padding: 15px;
+    font-size: 1.1em;
+		padding-left: 50px; 
+		display: inline-block;
+			list-style-type: none;
+			align-items: center;
+			align-content: space-between;
+			text-align: center;
+			text-decoration: none;
+		}
+
+nav ul { 
+	align-content: space-around;
+	margin: 0; 
+	list-style-type: none;
+  }
+
+.current {
+	font-family: 'Roboto Slab', serif;
+	font-style: bold;
+	padding: 1.6em;
+		margin-top: 55px;
+			 padding: 0.5em;
+			 background-color: silver;
+			 color: black;}
+h1,h2, h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-style: bold;
+	color:white; 
+	font-size: 1em;
+	line-height: 1.1em;
+	text-align: center;
+	padding: 10px;
+}
+body {
+	justify-items: center;
+	align-content: center;
+	display: flex;
+	flex-flow: column;
+	
+}
+ 
+ @media screen and (max-width: 500px) {
+.menu {
+	display: inline-flex;
+	flex-flow: column;
+
+}
+.hide {
+	display: none;
+}
+
+ }
