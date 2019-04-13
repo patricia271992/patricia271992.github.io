@@ -1,0 +1,195 @@
+* {
+				margin:0px;
+				padding:0px;
+            }
+            .info{
+                color: black;
+            }
+          #services{
+              list-style: none;
+          }
+			article{
+                color: black;
+            }
+			header {
+                background-color: gold; /* For browsers that do not support gradients */
+                background-image: linear-gradient( gold, sienna, gold);
+                      border: 1px solid gold;
+                      box-shadow: 0 0 30px sienna;
+                  outline-color: silver;
+                   margin: 0;
+                  overflow: hidden;
+                  padding: 0;
+                  text-shadow:3px 3px 5px gray;
+              text-decoration: none;
+              }
+              nav {	padding: 2.5em;
+                margin-top: 10px;
+                margin-left: 10px; 
+                     line-height: 1.75em;
+                     text-decoration: none;
+                 list-style-type: none;
+                 display: flex;
+                flex-flow: row;	
+                align-content: center;
+                align-items: center;
+            }
+              #logo {
+                width: 95px;
+                padding: 10px;
+            }	
+			ul, ol {
+				list-style-type:none;
+			}
+			
+			
+			.hide li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 15px;
+				display:block;
+            }
+            
+            .hide > li {
+				float:left;
+			}
+			
+			.hide li a:hover {
+				background-color:gray;
+			}
+			
+			.hide li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.hide li:hover > ul {
+                display:block;
+                background-color: gray;
+			}
+			
+			.hide li ul li {
+				position:relative;
+			}
+			
+			.hide li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+            .dot {
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+            }
+            
+            .active, .dot:hover {
+                background-color: #717171;
+            }
+            
+            /* Fading animation */
+            .fade {
+                -webkit-animation-name: fade;
+                -webkit-animation-duration: 1.5s;
+                animation-name: fade;
+                animation-duration: 1.5s;
+            }
+            
+           li {
+                font-family: 'Titillium Web', sans-serif;
+                font-style: italic;
+                    }
+button {
+font-family: 'Roboto Slab', serif;
+font-style: bold;
+border: none;
+height: 50px;
+text-align: center;
+text-decoration: none;
+display: block;
+}
+
+footer {
+	background-color: gold;
+	box-shadow: 0 0 30px sienna;
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	align-content: center;
+}
+.current {
+	font-family: 'Roboto Slab', serif;
+	font-style: bold;
+	 padding: 0.5em;
+	 background-color: sienna;
+     color: white;}
+
+h1,h2, h3 {
+                font-family: 'Titillium Web', sans-serif;
+                font-style: bold;
+                color:white; 
+                font-size: 1.5em;
+                line-height: 1.1em;
+                text-align: center;
+                padding: 10px;
+                    }
+
+#content{
+    display: flex;
+flex-flow: column;
+max-width: 1200px;
+min-width: 300px;
+align-items: center;
+color: black ; 
+}
+#content h1,h2,h3{
+    color: black;
+}
+section{
+    border: solid 2px gray;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    display: inline-block;
+}
+
+
+@media only screen and (max-width: 350px) {
+    .menu {
+        display: inline-flex;
+        flex-flow: column;
+        }
+        .prev, .next,.text {font-size: 11px}
+        
+        .hide {
+        display: none;
+    }
+    
+#music{
+    display: none;
+}
+    header {
+         display: flex;
+          flex-flow: column;
+          }
+     }
+
+     @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+    
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+   

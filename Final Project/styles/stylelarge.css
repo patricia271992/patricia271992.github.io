@@ -1,0 +1,84 @@
+.menu {
+    display: flex;
+    flex-flow: row;
+    }
+    nav {	padding: 2.5em;
+        margin-top: 10px;
+        margin-left: 10px; 
+             line-height: 1.75em;
+             text-decoration: none;
+         list-style-type: none;
+         display: flex;
+        flex-flow: column;	
+        align-content: center;
+        align-items: center;
+    }	
+	.hide > li {
+
+		float: left;
+	}
+	ul, ol {
+		list-style:none;
+	}
+	
+		.hide li a {
+		text-decoration:none;
+		padding:10px 15px;
+		display:block;
+    }
+    #info{
+        display: block;
+    }
+    #info img{
+        max-width: 500px;
+        min-width: 200px;
+    }
+	
+	.hide > li {
+		float:left;
+	}
+		
+	.hide li ul {
+		display:none;
+		position:absolute;
+		min-width:140px;
+	}
+	
+	.hide li:hover > ul {
+        display:block;
+        background-color: gray;
+	}
+	
+	.hide li ul li {
+		position:relative;
+	}
+	
+	.hide li ul li ul {
+		right:-140px;
+		top:0px;
+	}
+	
+@media screen and (min-width: 801px) {
+  
+
+    .hide {
+        display: block;
+    }
+    
+    header, footer{
+        display: flex;
+        flex-flow: row;
+        text-align: center;
+        justify-content: center;
+            margin: 0;
+        overflow: hidden;
+     
+        text-align: center;
+    }
+
+    .menu {display: none;
+    }
+     }
+
+    
+ 
