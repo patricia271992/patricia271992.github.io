@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+        <head>
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <meta name="description" content="Temple Inn and Suites - Reservation">
+      <title>Make Reservation</title>     
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"> 
+      <link rel="stylesheet" href="styles/normalize.css">
+      <link rel="stylesheet" href="styles/stylelarge.css">
+      <link rel="stylesheet" href="styles/stylemedium.css">
+      <link rel="stylesheet" href="styles/stylesmal.css">
+
+         <style>  
+    
+           </style>
+           
+    </head>
+   <body id="content">  
+          <header>
+                    <nav>
+                                <div >
+                                    <img id="logo" alt="logo" src="./images/logo-pipes.png">
+                                              <h1>Temple Inn & Suites</h1>
+                                                        </div>
+                    <div>
+                            <span class="menu"><button onclick="toggleMenu()">&equiv; Menu</button></span>  
+                            </div>
+                           <ul id="menu" class="hide" >
+                                <li><a href="index.html">Home</a></li>
+                            <li><a>Temple</a>
+                                 <ul>
+                                     <li><a href="boise.html">Boise Idaho Temple</a></li>
+                                     <li><a href="IdahoFalls.html">Idaho Falls Idaho Temple</a></li>
+                                     <li> <a href="MeridianIdaho.html">Meridian Idaho Temple</a></li>
+                                      <li><a href="TwinsFalls.html">Twins Falls Idaho Temple</a></li>
+                                      </ul> </li>
+                            <li><a href="reservation.html">Reservation</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contactus.html" class="current">Contact us</a></li>
+                                              </ul>
+                      <div>
+                              <a href='reservation.html'><button>Make Reservation</button></a>
+                </div>
+                <div><audio src="music/2009-12-0030-a-childs-prayer-music-only-128k-spa.mp3" controls>	
+                  <embed 
+                    src="music/2009-12-0030-a-childs-prayer-music-only-128k-spa.mp3"
+                    width="300"
+                    height="90"
+                    loop="false"
+                    autostart="false">
+                </audio></div>
+            </nav>
+            </header>
+<main>
+
+<form id="form1" action="thanks.html" method="get" target="_self">
+     <fieldset> 
+         <div><label for="fullName">Full Name:</label>
+          <input type="text" id="fullName"name="fullName" required >
+     </div> 
+    <div> <label for="email">Email:</label>
+  <input type="email" id="e-mail" name="e-mail">
+</div>
+<div> 
+          <label for="phoneNumber">Phone Number:</label>
+           <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div> 
+          <label for="temple">Temple:</label>
+            <select id="temple" name="temple" >
+                    <option value="Boise Idaho Temple">Boise Idaho Temple</option>
+                    <option value="Idaho Falls Idaho Temple">Idaho Falls Idaho Temple</option>
+                    <option value="Meridian Idaho Temple">Meridian Idaho Temple</option>
+                    <option value="Twins Falls Idaho Temple">Twins Falls Idaho Temple</option>
+           </select>
+               </div>
+<div>
+     <label for="reservationType">Reservation Type:</label>
+     
+     <select id="reservationType" name="reservationType" >
+               <option value="Playroom and low-cost, short-term babysitting services">Playroom, short-term babysitting services</option>
+               <option value="Long-term stay ">Long-term stay </option>
+               <option value="A wedding reception hall">A wedding reception hall</option>
+               <option value="A family search center">A family search center</option>
+               <option value="other">Other</option>
+      </select>
+<textarea>Ask about </textarea>
+</fieldset>
+<div> 
+          
+
+  <input type="submit" value="Submit"></div>
+</form>
+</main>
+</div>
+      
+
+<footer>
+          <div id="currentDate"></div>
+          <p class="footer"> &copy; 2019 |  Temple Inn & Suites  | Terms of use </p>
+          </footer>
+          <script src="script/currentDate.js"></script>
+          <script src="script/hamburger.js"></script>
+          </body>
+</html>
